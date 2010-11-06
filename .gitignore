@@ -1,0 +1,5 @@
+Gemfile*
+_site/
+vendor/
+bin/*
+.bundle

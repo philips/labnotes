@@ -1,0 +1,14 @@
+---
+layout: default
+title: pages
+---
+
+<h1>pages</h1>
+<div class="archive">
+{% for page in site.pages %}
+	{% if site.notpages contains page.title %}
+	{% else %}
+		<h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+	{% endif %}
+{% endfor %}
+</div>

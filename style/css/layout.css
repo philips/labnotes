@@ -1,0 +1,307 @@
+body {
+	font: 1.0em "Lucida Grande";
+	background: #222;
+	color: #333;
+	margin: 0;
+	padding: 0 3em;
+	line-height: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: helvetica, arial, verdana, sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 218%;
+	word-spacing:-0.125em;
+	margin-left: 0em;
+	font-weight: bold;
+	/*  http://www.soxiam.com/Code/CSSDisappearingTextBugInIE6 */
+	border: 0px solid;
+}
+
+h2 {
+	font-size: 164%;
+}
+
+h3 {
+	font-size: 145%;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 118%;
+	font-weight: bold;
+}
+
+h3.link {
+	margin: 0em;
+	padding: 0em;
+}
+
+div.links div.date {
+        float: right;
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+}
+
+div.links div.tags {
+	margin: 0em;
+	padding: 0em;
+}
+
+/* Archive Listings */
+div.entry, div.archive {
+	margin-left: 1em;
+}
+
+div.post h2, div.archive h2, div.archive h3 {
+	margin: 0em;
+	padding: 0em;
+}
+
+div.date {
+	float: none;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 0.5em;
+	display: inline;
+	font-size: 80%;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #ddd;
+	margin: 2em 0;
+}
+
+pre {
+	margin: 1em;
+}
+
+#skip-nav {
+    display: none;
+}
+
+address {font-style: normal; }
+img { border: none; }
+.underline { text-decoration: underline; }
+ol.loweralpha { list-style-type: lower-alpha; }
+ol.upperalpha { list-style-type: upper-alpha; }
+ol.lowerroman { list-style-type: lower-roman; }
+ol.upperroman { list-style-type: upper-roman; }
+ol.arabic     { list-style-type: decimal; }
+ABBR { letter-spacing:0.1em }
+
+/* Link styles */
+:link, :visited {
+	text-decoration: none;
+	color: #588da2;
+}
+:link {
+	text-decoration: underline;
+}
+
+:link:hover, :visited:hover { color: #416878; }
+h1 :link, h1 :visited ,h2 :link, h2 :visited, h3 :link, h3 :visited,
+h4 :link, h4 :visited, h5 :link, h5 :visited, h6 :link, h6 :visited {
+ color: inherit;
+}
+
+/* Forms */
+input, textarea, select { margin: 2px }
+input, select { vertical-align: middle }
+input[type=button], input[type=submit], input[type=reset] {
+	background: #eee;
+	color: #222;
+	border: 1px outset #ccc;
+	padding: .1em .5em;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+	background: #ccb;
+}
+input[type=button][disabled], input[type=submit][disabled],
+input[type=reset][disabled] {
+	background: #f6f6f6;
+	border-style: solid;
+	color: #999;
+}
+input[type=text], input.textwidget, textarea { border: 1px solid #d7d7d7 }
+input[type=text], input.textwidget { padding: .25em .5em }
+input[type=text]:focus, textarea:focus { border: 1px solid #886 }
+option { border-bottom: 1px dotted #d7d7d7 }
+fieldset { border: 1px solid #d7d7d7; padding: .5em; margin: 0 }
+fieldset.iefix { background: transparent; border: none; padding: 0; margin: 0 }
+* html fieldset.iefix { width: 98% }
+fieldset.iefix p { margin: 0 }
+legend { color: #999; padding: 0 .25em; font-size: 90%; font-weight: bold }
+label.disabled { color: #d7d7d7 }
+.buttons { margin: .5em .5em .5em 0 }
+.buttons form, .buttons form div { display: inline }
+.buttons input { margin: 1em .5em .1em 0 }
+
+/* Wrapper */
+#wrapper {
+	max-width: 60em;
+	min-width: 45em;
+	background: #fff;
+}
+
+/* Banner */
+
+#banner {
+	background: url(../img/pat.gif) repeat top left;
+	height: 100px;
+}
+
+/* Logo */
+#logo {
+	margin: 0;
+	padding: 0;
+	text-indent: -999px;
+}
+
+#logo a {
+	background: transparent url(../img/logo.png) no-repeat;
+	display: block;
+	height: 96px;
+	text-decoration: none;
+	width: 96px;
+}
+
+#header hr { display: none }
+#header a img { border: none; float: left; margin: 0; padding: 0; }
+
+/* Navigation */
+.nav h2, .nav hr { display: none }
+.nav ul { list-style: none; margin: 0; text-align: right }
+.nav li {
+ border-right: 1px solid #d7d7d7;
+ display: inline;
+ padding: 0 .75em;
+ white-space: nowrap;
+}
+.nav li.last { border-right: none }
+
+/* Main navigation bar */
+#mainnav {
+	background: #111;
+	padding: 0.3em;
+}
+
+#mainnav a {
+	color: #dbebfa;
+	border: none;
+	text-decoration: none;
+}
+
+#mainnav a:hover {
+	background: transparent;
+	text-decoration: underline;
+}
+
+/* Footer */
+#footer {
+	clear: both;
+	color: #888;
+	border-top: 1px solid #ccc;
+	padding: 1em 1em 0 1em;
+	text-align: right;
+	background-color: #f7f7f7;
+}
+#footer p { margin: 0 }
+#footer p.left {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#footer p.right {
+	float: right;
+	text-align: right;
+}
+#footer fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#content {
+	padding-bottom: 2em;
+	margin: 2em;
+	max-width: 55em;
+	min-width: 40em;
+}
+
+@media print {
+ #header, #altlinks, #footer { display: none }
+ .nav, form, .buttons form { display: none }
+}
+
+#main {
+	padding: 0 1.7em;
+}
+
+
+.toc ul li {
+	list-style-image: none;
+}
+.toc ul li :link, .toc ul li :visited {
+	text-decoration: none;
+}
+.toc ul li :hover {
+	text-decoration: underline;
+}
+
+/* Styles for the toc */
+.toc {
+	padding: .5em 1em;
+	margin: 0 0 2em 1em;
+	float: right;
+	border: 1px outset #ddc;
+	background: #ffd;
+	font-size: 85%;
+	position: relative;
+}
+.toc h4 { font-size: 12px; margin: 0 }
+.toc ul, .toc ol { list-style: none; padding: 0; margin: 0 }
+.toc ul ul, .toc ol ol { padding-left: 1.2em }
+.toc li { margin: 0; padding: 0 }
+.toc .active { background: #ff9; position: relative; }
+
+/* Alignments */
+.alignright {
+        float: right;
+}
+.alignleft {
+	float: left
+}
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+}
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+}
+
+blockquote {
+	font-style: italic;
+	border-left: 4px solid black;
+	padding-left: 10px; 
+}
+
+/* Bookmarklet */
+a.bml {
+	border:1px outset #ddd;
+	padding: 1px;
+	vertical-align: 1px;
+	background: #ddd;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 80%;
+	color: darkgreen;
+}

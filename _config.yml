@@ -1,0 +1,7 @@
+markdown: rdiscount
+pygments: true
+permalink: pretty
+exclude: bin, vendor
+title: labnotes
+author: Brandon Philips
+notpages: pages, archive, feed, lab notes
