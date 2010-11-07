@@ -160,7 +160,6 @@ label.disabled { color: #d7d7d7 }
 #logo {
 	margin: 0;
 	padding: 0;
-	text-indent: -999px;
 }
 
 #logo a {
@@ -169,6 +168,10 @@ label.disabled { color: #d7d7d7 }
 	height: 96px;
 	text-decoration: none;
 	width: 96px;
+	text-indent: 100px;
+	padding-top: 38px;
+	font-size: 228%;
+	color: white;
 }
 
 #header hr { display: none }
