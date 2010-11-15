@@ -1,0 +1,12 @@
+Getting Started
+---------------
+
+- Run `sh ./bin/setup.sh` to setup jekyll and the required Gems in the
+  current directory.
+
+- Run `./bin/jekyll --server --auto` and visit http://localhost:4000/
+
+Writing a post
+--------------
+
+- Run `./bin/newpost "title"` to write a new post and launch vim
